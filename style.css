@@ -9,6 +9,10 @@
   font-family: 'Roboto', sans-serif;
 }
 
+img{
+  max-width: 100%;
+}
+
 .container{
   max-width: 1024px;
   margin: 0 auto;
@@ -16,6 +20,7 @@
 
 header{
   background-color: #07748C;
+  margin-bottom: 40px;
 }
 
 .header-contain{
@@ -24,6 +29,7 @@ header{
   justify-content: space-between;
   color: #fff;
   font-weight: bold;
+  font-style: italic;
   padding: 20px;
 }
 
@@ -36,4 +42,18 @@ header{
   color: #fff;
   font-size: 1.3em;
   font-weight: bold;
+}
+
+.sobre{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+.sobre h2{
+  border-bottom: 2px solid #07748C;
+  color: #07748C;
+  font-style: italic;
+  padding-bottom: 20px;
+  margin-bottom: 40px;
 }
